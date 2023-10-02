@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Gheian Agustin</title>
+        <link href="img/Logo.png" rel="icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7917a437e2.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="#header"><img src="img/Logo.png" class="logo"></a>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Project</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1><span>Gheian</span> Agustin</h1>
+                    <p>I'm a <span class="auto-type"></span></p>
+                    <div class="btn-header">
+                        <a href="img/Gheian Agustin - CV.pdf" download class="btn btn2">Download CV</a>
+                        <a href="#contacts" class="btn btn2">Contact Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------------ABOUT------------->
+        <div id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/profileAbout.jpg" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title-about"><span>Ab</span>out</h1>
+                    <p><span>A Comp</span>uter <span>Engine</span>ering <span>grad</span>uate <span>fr</span>om <span>Polyte</span>chnic <span>Unive</span>rsity 
+                        <span>o</span>f <span>th</span>e <span>Philip</span>pines <span>eage</span>rly 
+                        
+                        <br><span>seek</span>ing <span>a</span>n 
+                        <span>opport</span>unity <span>whe</span>re <span>I</span> <span>ca</span>n <span>util</span>ize 
+                        <span>m</span>y <span>lea</span>rnt <span>ski</span>lls <span>i</span>n <span>devel</span>oping <span>an</span>d 
+                        <span>progra</span>mming 
+                        
+                        <br><span>i</span>n <span>a</span> <span>profes</span>sional <span>sett</span>ing <span>an</span>d 
+                        <span>enha</span>nce <span>m</span>y <span>capabi</span>lities <span>fo</span>r <span>th</span>e 
+                        <span>bette</span>rment <span>o</span>f <span>th</span>e <span>organiz</span>ation. 
+                        
+                        <br><span>I</span> <span>wi</span>sh <span>t</span>o <span>contr</span>ibute <span>towa</span>rds <span>th</span>e 
+                        <span>organiz</span>ational <span>goa</span>ls <span>thro</span>ugh <span>m</span>y <span>interpe</span>rsonal 
+                        <span>ski</span>lls, 
+                        
+                        <br><span>techn</span>ical <span>an</span>d <span>problem-</span>solving <span>skil</span>ls, 
+                        <span>pass</span>ion, <span>an</span>d <span>dedica</span>tion.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!--Skills-->
+                    <div id="skills" class="tab-contents active-tab">
+                        <i class="fa-brands fa-unity"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <img src="img/firebase.svg">
+                        <div class="skills-name">
+                            <p>Unity C#</p>
+                            <p>React Native</p>
+                            <p>Firebase</p>
+                        </div>
+                        
+                    </div>
+
+                    <!--Experience-->
+                    <div id="experience" class="tab-contents">
+                        <h2>NTEK Systems Inc. | August 2022 - October 2022</h2>
+                        <h4>Junior Unity Programmer</h4>
+                        <ul>
+                            <li>Developed certain characters’ movement and interaction using Unity animations and components.</li>
+                            <li>Reconstructed the city’s landscape to minimize the load and make the game simpler.</li>
+                            <li>Recorded weekly progress to monitor the status of the game.</li>
+                            <li>Handled the Game Design Document (GDD) for the blueprint of the game</li>
+                        </ul>
+                    </div>
+
+                    <!--Education-->
+                    <div id="education" class="tab-contents">
+                        <h2>BS Computer Engineering | 2019 - 2023</h2>
+                        <h4>Polytechnic University of the Philippines</h4>
+                        <ul>
+                            <li><span>Honors: </span>President’s Honor List Award</li>
+                        </ul>
+                        <h2>Science, Engineering, Technology, & Mathematics | 2019 - 2023</h2>
+                        <h4>Polytechnic University of the Philippines</h4>
+                        <ul>
+                            <li><span>Honors: </span>Academic Excellence Awards with Honors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------END OF ABOUT------------->
+
+        <!------------PROJECTS------------->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title-project"><span>Pro</span>jects</h1>
+                <div class="project-list">
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <img src="img/Projects/project-1.png">
+                        <h2><strong>MYTHOS</strong></h2>
+                        <h3>Game Development</h3>
+                        <p>Mythos is a 2D Fighting Game made with Unity C#. 
+                            Unlike every other fighting game, Mythos is based on Philippine Mythology 
+                            including character such as Bathala. User should give their best to kill
+                            the enemy in front in order to win and dominate the landscape.
+                        </p>
+
+                        <a class="btn btn2">Unity</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <img src="img/Projects/project-4.png">
+                        <h2><strong>City Adventures</strong></h2>
+                        <h3>Game Development</h3>
+                        <p>Embark on an exhilarating journey through City Adventures, the immersive 3D 
+                            adventure game that blends excitement with real-world lessons. 
+                            As you navigate the bustling city streets, your mission is to 
+                            collect coins on your way to the ultimate destination.
+                        </p>
+
+                        <a class="btn btn2">Unity 3D</a>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile"></i>
+                        <img src="img/Projects/project-3.png">
+                        <h2><strong>PhysicsExpress</strong></h2>
+                        <h3>Mobile Application Development</h3>
+                        <p>PhysicsExpress is a software application that will serve as a virtual teacher for 
+                            high school students. Lessons on different branches of physics is included in 
+                            the application along with corresponding tests and exercises to help students learn 
+                            more about the subject.
+                        </p>
+                        
+                        <a class="btn btn2">React Native</a>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-display"></i>
+                        <img src="img/Projects/project-2.png">
+                        <h2><strong>SK Maybunga Website</strong></h2>
+                        <h3>Website Development</h3>
+                        <p>SK Maybunga is a website that promotes and showcases leadership quality and excellence.
+                            This includes numerous activities and projects dedicated to the community and its people
+                            planned by the SK Chair, Kagawads, and other Youth Organizations in Maybunga, Pasig City.
+                        </p>
+
+                        <a class="btn btn2">HTML</a>
+                        <a class="btn btn2">CSS</a>
+                        <a class="btn btn2">JS</a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------END OF PROJECTS------------->
+
+        <!------------CONTACTS------------->
+        <div id="contacts">
+            <div class="container">
+                <div class="contact-list">
+                    <h1 class="sub-title-contact">Contact <span>Me</span></h1>
+                    <p><i class="fa-regular fa-envelope"></i>agustin.gheian@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0929 576 2905</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/youremywords"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/gcdcagustin/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/y4to"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!------------FOOTER------------->
+            <div class="copyright">
+                <p>Copyright &copy; 2023 Gheian Agustin. All Rights Reserved</p>
+            </div>
+        </div>
+        <!------------END OF CONTACTS------------->
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed(".auto-type",{
+                strings: ["Game Developer", "Mobile Application Developer"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            })
+        </script>
+
+
+    </body>
+</html>
